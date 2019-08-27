@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1566343925 source:/home/alumno/Documentos/luciano greco/proyecto_dos_funciones/main.c
+	<stdio.h>
+	<stdlib.h>
+
