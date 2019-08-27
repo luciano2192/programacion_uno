@@ -1,0 +1,37 @@
+PUNTEROS:
+
+	puede ser--> 	void
+		     	int
+		     	char
+			float
+			double
+
+	la distingo porque tiene un asterisco
+	
+	EJ: int *numero;
+
+	guarda una ubicacion en memoria, nos permite trabajar por
+	referencia. Si modifico la variable de referencia, se 
+	modifica la original.
+
+	Cuando le agrego "&" a la variable, hago referencia a la direccion
+	en memoria de esa variable.
+
+
+BIBLIOTECAS:
+	
+	puedo hacer mis bibliotecas
+	
+	miBiblio.h ----> van los prototipos o declaraciones
+
+		EJ: int suma( int , int );
+
+	miBiblio.c ----> cuerpo o definicion de las funciones
+	
+		EJ: int suma( int operando1 , int operando2 ) {
+			//desarrollo de funcion
+		}	
+	
+	para importarla:
+
+		#include <miBiblio.h>
