@@ -35,3 +35,10 @@ BIBLIOTECAS:
 	para importarla:
 
 		#include <miBiblio.h>
+
+
+RUTAS:
+
+	usar rutas relativas para los include
+
+	"./funciones.h"
