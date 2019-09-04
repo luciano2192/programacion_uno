@@ -24,3 +24,6 @@ ARRAY:
 		for ( i = 0 ; i < CANT ; i++ ) {
 			edad[i] = 1;
 		}
+
+
+	int vec[5]={7,5,6,3,2}; // lo declaro y lo inicializo al mismo tiempo
