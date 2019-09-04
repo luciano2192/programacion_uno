@@ -1,0 +1,26 @@
+ARRAY:
+
+	*los espacios son consecutivos
+	
+
+	EJEMPLO:
+
+		#define CANT 50; // defino la constante donde van los include
+		
+		int edad[CANT];
+
+		for ( i = 0 ; i < CANT ; i++ ) {
+			printf("Edad: ");
+			scanf("%d" , &edad[i]);
+		}
+
+	
+	CARGA SECUENCIAL:
+		
+		inicializo todos los valores en 1,
+		cuando voy a cargar datos, si es 1 esta libre y puedo
+		cargar, una vez que cargue le cambio el valor a 0.			
+	
+		for ( i = 0 ; i < CANT ; i++ ) {
+			edad[i] = 1;
+		}
