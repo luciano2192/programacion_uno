@@ -20,6 +20,10 @@ int main()
 
     }
 
+    for (i=0;i<5;i++) {
+        printf("%d",vec[i]);
+    }
+
 
 
     return 0;
