@@ -1,0 +1,22 @@
+ctype.h
+
+	isspace('char') // Comprueba sin un carácter es de tipo espacio.
+			   Verdadero (!=0) o falso (0).
+
+	isdigit('char') // Indica si un carácter es numérico. 
+			   Verdadero (!=0) o falso (0)
+
+	isalpha('char') // Indica si un carácter es alfabético.
+			   Verdadero (!=0) o falso (0).
+
+	int ... = atoi(candena); // toda la cadena debe estar compuesta
+				    por numeros.
+
+	float ... = atof(cadena); // igual que atoi() pero para trabajar
+				     con flotantes, no puedo haber mas
+			 	     de un punto.
+
+
+	LOS DATOS PARA LA ENTRADA LOS TENGO QUE TRABAJAR COMO
+	CADENA DE CARACTERES, DESPUES HAGO LAS COMPROBACIONES
+	CON LAS FUNCIONES MENCIONADAS.
