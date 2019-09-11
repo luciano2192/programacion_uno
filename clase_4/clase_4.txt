@@ -20,3 +20,8 @@ ctype.h
 	LOS DATOS PARA LA ENTRADA LOS TENGO QUE TRABAJAR COMO
 	CADENA DE CARACTERES, DESPUES HAGO LAS COMPROBACIONES
 	CON LAS FUNCIONES MENCIONADAS.
+
+	
+	char cadena[31];
+	int edad = 19;
+	sprintf(cadena, "%d", edad); // convierte int a cadena de caracteres
