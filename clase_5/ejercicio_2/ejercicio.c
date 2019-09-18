@@ -12,6 +12,7 @@ void inicializar( ePersona pers[] , int cantidad ) {
 
 void alta( ePersona pers[], int cantidad ){
     int i;
+    int flag = 0;
 
         for( i = 0; i < cantidad; i++ ){
             if (pers[i].isEmpty != 0) {
@@ -35,9 +36,12 @@ void alta( ePersona pers[], int cantidad ){
                 printf("\nAnio: ");
                 scanf("%d", &pers[i].fechaNacimiento.anio);
 
-                system("cls");
                 pers[i].isEmpty = 0;
+                flag = 1;
             }
+        }
+        if(flag == 0) {
+            printf("No hay espacio suficiente");
         }
 }
 
