@@ -7,8 +7,14 @@ typedef struct{
     char nombre[31];
     int edad;
     eFecha fechaNacimiento;
+    int ePaisId;
     int isEmpty;
 }ePersona;
+
+typedef struct{
+    int id;
+    char descripcion[31];
+}ePais;
 
 int menu();
 

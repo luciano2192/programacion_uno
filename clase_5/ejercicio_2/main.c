@@ -9,6 +9,12 @@ int main(){
     ePersona pers[CANT];
     int idMenu;
 
+    ePais paises[3] = {
+        { 1 , "Argentina" },
+        { 2 , "Brasil" },
+        { 3 , "Uruguay" },
+    };
+
     inicializar(pers , CANT);
 
     do {

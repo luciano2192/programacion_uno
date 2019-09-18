@@ -31,7 +31,7 @@ void alta( ePersona pers[], int cantidad ){
                 scanf("%d", &pers[i].fechaNacimiento.dia);
 
                 printf("\nMes: ");
-                scanf("%d", &pers[i].fechaNacimiento.dia);
+                scanf("%d", &pers[i].fechaNacimiento.mes);
 
                 printf("\nAnio: ");
                 scanf("%d", &pers[i].fechaNacimiento.anio);
@@ -53,7 +53,6 @@ void mostrarTodos( ePersona pers[], int cantidad ){
             mostrarUno(pers[i]);
         }
     }
-
 }
 
 void mostrarUno( ePersona per ){
@@ -87,4 +86,22 @@ int menu() {
     scanf( "%d" , &menu );
 
     return menu;
+}
+
+void filtrarPorPais( ePersona pers[] , int cantidadPersonas , ePais pais[] , int cantidadPaises ) {
+    int i , j;
+    int auxPais;
+
+    printf("\nPais a buscar: ");
+    scanf( "%d" , &auxPais );
+
+    for( i = 0 ; i < cantidadPaises ; i++ ){
+        if( pais[i].id == auxPais ) {
+            for( i = 0 ; i < cantidadPersonas ; i++ ){
+                if( pers[i].ePaisId == auxPais ) {
+
+                }
+            }
+        }
+    }
 }
